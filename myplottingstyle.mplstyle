@@ -1,0 +1,66 @@
+# File: my_custom_style.mplstyle
+
+# Figure properties
+
+figure.figsize   : 8, 6
+figure.facecolor : white
+
+# Font properties
+
+font.family      : sans-serif
+font.sans-serif  : Arial, Helvetica, DejaVu Sans
+font.size        : 18
+mathtext.fontset : cm
+
+# Legend properties
+
+legend.frameon    : False
+legend.framealpha : 0.8
+legend.fontsize   : 18
+
+# Axes properties
+ 
+axes.grid      : True
+axes.linewidth : 1.0
+axes.titlesize : 18
+axes.labelsize : 18
+
+xtick.labelsize     : 18
+xtick.major.pad     : 10
+xtick.major.size    : 10
+xtick.minor.size    : 4
+xtick.minor.visible : True
+xtick.direction     : in
+xtick.top           : True
+
+ytick.labelsize     : 18
+ytick.major.pad     : 10
+ytick.major.size    : 10
+ytick.minor.size    : 4
+ytick.minor.visible : True
+ytick.direction     : in
+ytick.right         : True
+
+
+# Grid properties
+ 
+grid.color     : white
+grid.linestyle : -
+grid.linewidth : 0.5
+
+# Line properties
+
+lines.linewidth  : 2
+lines.markersize : 7
+
+# Color cycle for multiple plots
+
+axes.prop_cycle: cycler('color', ['4C72B0', 'DD8452', '55A868', 'C44E52', '8172B3', '937860', 'DA8BC3', '8C8C8C', 'CCB974', '64B5CD'])
+
+
+# Saving figure properties
+
+savefig.dpi    : 300
+savefig.format : png
+
+image.cmap : RdBu
